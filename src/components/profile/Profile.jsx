@@ -2,11 +2,9 @@ import PropTypes from 'prop-types';
 
 export const Profile = ({ userName, tag, location, avatar, stats }) => {
   return (
-    <div
-      className="profile"
-     >
+    <div className="profile">
       <div className="description">
-        <img src={avatar} alt={userName} className="avatar" />
+        <img src={avatar} width="150"  alt={userName} className="avatar" />
         <p className="name">{userName}</p>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
