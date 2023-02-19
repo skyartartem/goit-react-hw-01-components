@@ -16,11 +16,31 @@ export const TransactionHistory = ({ transactions }) => {
         {transactions.map(({ id, type, amount, currency }) => {
           return (
             <tr className={css.tr} key={id}>
-              <td className={css.td} style={{ textTransform: 'capitalize' }}>
+              <td
+                className={css.td}
+                style={{
+                  textTransform: 'capitalize',
+                  color: '#818181',
+                }}
+              >
                 {type}
               </td>
-              <td className={css.td}>{amount}</td>
-              <td className={css.td}>{currency}</td>
+              <td
+                className={css.td}
+                style={{
+                  color: '#818181',
+                }}
+              >
+                {amount}
+              </td>
+              <td
+                className={css.td}
+                style={{
+                  color: '#818181',
+                }}
+              >
+                {currency}
+              </td>
             </tr>
           );
         })}
