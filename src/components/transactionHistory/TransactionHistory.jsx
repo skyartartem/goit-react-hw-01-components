@@ -4,24 +4,21 @@ import css from './TransactionHistory.module.css';
 export const TransactionHistory = ({ transactions }) => {
   return (
     <table className={css.transactionHistory}>
-      <thead
-        // style={{ backgroundColor: "blue" }}
-        className={css.head}
-      >
-        <tr >
-          <th style={{ padding: 10 }}>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+      <thead className={css.head}>
+        <tr>
+          <th className={css.th}>Type</th>
+          <th className={css.th}>Amount</th>
+          <th className={css.th}>Currency</th>
         </tr>
       </thead>
 
       <tbody>
         {transactions.map(({ id, type, amount, currency }) => {
           return (
-            <tr
-              // className={css.border}
-              key={id}>
-              <td className={css.td}>{type}</td>
+            <tr className={css.tr} key={id}>
+              <td className={css.td} style={{ textTransform: 'capitalize' }}>
+                {type}
+              </td>
               <td className={css.td}>{amount}</td>
               <td className={css.td}>{currency}</td>
             </tr>
