@@ -1,31 +1,31 @@
 [
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
-    "name": "Mango",
+    "avatar": "https://media.licdn.com/dms/image/D4E03AQFnkhZINe7Euw/profile-displayphoto-shrink_400_400/0/1674121576821?e=1682553600&v=beta&t=ose8BE-ut1bvNmIPjqvts8_4Ay5OSrwzHLRtCe8zXJU",
+    "name": "Artem",
     "isOnline": true,
     "id": 1812
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
-    "name": "Kiwi",
+    "avatar": "https://media.licdn.com/dms/image/C5603AQH46TKhOH5GqA/profile-displayphoto-shrink_400_400/0/1660087252778?e=1682553600&v=beta&t=1U2Nc_OWrA1mPK1-NVaqEn3RJwcupRpmYwEuclblpzo",
+    "name": "Serhii",
     "isOnline": false,
     "id": 1137
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
-    "name": "Ajax",
+    "avatar": "https://media.licdn.com/dms/image/D4E03AQFCqttAWCnc6A/profile-displayphoto-shrink_400_400/0/1674143887712?e=1682553600&v=beta&t=OOexwmH0SgzSA356O7lfGvmZQ8g87Ir7QvHnsflUZc8",
+    "name": "Alex",
     "isOnline": true,
     "id": 1213
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
+    "avatar": "https://media.licdn.com/dms/image/D4D03AQE28n32X8EhDA/profile-displayphoto-shrink_400_400/0/1674311448766?e=1682553600&v=beta&t=kUvTv5yzj0CprO7L5UlCtqmaCVE3mNml0LrHaNNSB5s",
     "name": "Jay",
     "isOnline": true,
     "id": 1714
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
-    "name": "Poly",
+    "avatar": "https://media.licdn.com/dms/image/C4E03AQFHOJfm0pGihw/profile-displayphoto-shrink_400_400/0/1645096244817?e=1682553600&v=beta&t=F7qHaCsgsr9o0XiEBzIFEybzNHVDRcyfHOfFo4D7bgQ",
+    "name": "Juli",
     "isOnline": false,
     "id": 1284
   }
